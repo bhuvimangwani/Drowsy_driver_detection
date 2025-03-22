@@ -1,10 +1,10 @@
 Driver Drowsiness Detection
 
-Project Overview
+🚀 Project Overview
 
 This project is designed to detect driver drowsiness using advanced deep learning techniques. It leverages Transfer Learning with InceptionResNetV2 and a custom CNN architecture featuring Parallel Convolution layers to achieve high performance.
 
-Dataset
+📁 Dataset
 
 Source: Driver Drowsiness Dataset (DDD)
 
@@ -12,15 +12,15 @@ Categories: Drowsy and Non-Drowsy images
 
 Purpose: Train and evaluate model performance
 
-Setup and Requirements
+🛠️ Setup and Requirements
 
 Ensure the following libraries are installed:
 
 pip install tensorflow pandas matplotlib seaborn opencv-python pillow
 
-Data Pipeline
+🔧 Data Pipeline
 
-1. Data Preparation
+1️⃣ Data Preparation
 
 Organized dataset: Drowsy and Non-Drowsy categories
 
@@ -28,13 +28,13 @@ Dataframes: Manage file paths and labels
 
 Visualization: Count plot to inspect category balance
 
-2. Data Augmentation and Splitting
+2️⃣ Data Augmentation and Splitting
 
 Augmentation: Rotation, zoom, shear (via ImageDataGenerator)
 
 Split: Training, Validation, Test sets using train_test_split
 
-3. Model Architecture
+🧠 Model Architecture
 
 🔹 Transfer Learning Model
 
