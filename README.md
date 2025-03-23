@@ -51,17 +51,9 @@ Parallel Convolution layers to capture diverse features
 
  ## Results
 
-Model
-
-Accuracy
-
-Transfer Learning
-
-99.73%
-
-Custom CNN
-
-99.90%
-
+| Model            | Accuracy |
+|------------------|----------|
+|Transfer Learning | 99.73%   |
+| Custom CNN       | 99.90%   |
 
 
