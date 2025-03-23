@@ -20,7 +20,7 @@ pip install tensorflow pandas matplotlib seaborn opencv-python pillow
 
 ## Data Pipeline
 
-# 1️ Data Preparation
+### 1️ Data Preparation
 
 Organized dataset: Drowsy and Non-Drowsy categories
 
@@ -28,7 +28,7 @@ Dataframes: Manage file paths and labels
 
 Visualization: Count plot to inspect category balance
 
-# 2️ Data Augmentation and Splitting
+### 2️ Data Augmentation and Splitting
 
 Augmentation: Rotation, zoom, shear (via ImageDataGenerator)
 
@@ -36,13 +36,13 @@ Split: Training, Validation, Test sets using train_test_split
 
  ## Model Architecture
 
-# 🔹 Transfer Learning Model
+### 🔹 Transfer Learning Model
 
 Uses InceptionResNetV2 pretrained weights
 
 Fine-tuned on the Driver Drowsiness Dataset
 
-# 🔹 Custom Parallel CNN
+### 🔹 Custom Parallel CNN
 
 Parallel Convolution layers to capture diverse features
 
@@ -64,8 +64,4 @@ Custom CNN
 99.90%
 
 
-
-This project showcases how deep learning models can effectively improve road safety by detecting driver drowsiness with impressive accuracy. The combination of Transfer Learning and a custom Parallel CNN architecture offers both performance and interpretability.
-
-🚘 Drive Safe. Stay Awake. Stay Alive!
 
